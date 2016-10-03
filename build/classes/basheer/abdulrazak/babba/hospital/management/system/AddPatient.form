@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Add Patient Record"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="gender" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="45" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="name" min="-2" pref="182" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="day" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="month" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="year" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="day1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="month1" min="-2" pref="67" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="address" min="-2" pref="140" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="year1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bloodgroup" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="236" pref="289" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="cancel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                      <Component id="save" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="day2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="month2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="year2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="name" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="day" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="month" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="year" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="gender" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel9" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="bloodgroup" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="address" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel6" alignment="3" max="32767" attributes="0"/>
+                  <Component id="day1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="month1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="year1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="day2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="month2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="year2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cancel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="save" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DATE OF BIRTH"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gender"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DATE OF ADD."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date OF DISCHARGE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="name">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="day">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dayActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="month">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="monthActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="year">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="151">
+            <StringItem index="0" value="&quot;1900&quot;"/>
+            <StringItem index="1" value="&quot;1901&quot;"/>
+            <StringItem index="2" value="&quot;1902&quot;"/>
+            <StringItem index="3" value="&quot;1903&quot;"/>
+            <StringItem index="4" value="&quot;1904&quot;"/>
+            <StringItem index="5" value="&quot;1905&quot;"/>
+            <StringItem index="6" value="&quot;1906&quot;"/>
+            <StringItem index="7" value="&quot;1907&quot;"/>
+            <StringItem index="8" value="&quot;1908&quot;"/>
+            <StringItem index="9" value="&quot;1909&quot;"/>
+            <StringItem index="10" value="&quot;1910&quot;"/>
+            <StringItem index="11" value="&quot;1911&quot;"/>
+            <StringItem index="12" value="&quot;1912&quot;"/>
+            <StringItem index="13" value="&quot;1913&quot;"/>
+            <StringItem index="14" value="&quot;1914&quot;"/>
+            <StringItem index="15" value="&quot;1915&quot;"/>
+            <StringItem index="16" value="&quot;1916&quot;"/>
+            <StringItem index="17" value="&quot;1917&quot;"/>
+            <StringItem index="18" value="&quot;1918&quot;"/>
+            <StringItem index="19" value="&quot;1919&quot;"/>
+            <StringItem index="20" value="&quot;1920&quot;"/>
+            <StringItem index="21" value="&quot;1921&quot;"/>
+            <StringItem index="22" value="&quot;1922&quot;"/>
+            <StringItem index="23" value="&quot;1923&quot;"/>
+            <StringItem index="24" value="&quot;1924&quot;"/>
+            <StringItem index="25" value="&quot;1925&quot;"/>
+            <StringItem index="26" value="&quot;1926&quot;"/>
+            <StringItem index="27" value="&quot;1927&quot;"/>
+            <StringItem index="28" value="&quot;1928&quot;"/>
+            <StringItem index="29" value="&quot;1929&quot;"/>
+            <StringItem index="30" value="&quot;1930&quot;"/>
+            <StringItem index="31" value="&quot;1931&quot;"/>
+            <StringItem index="32" value="&quot;1932&quot;"/>
+            <StringItem index="33" value="&quot;1933&quot;"/>
+            <StringItem index="34" value="&quot;1934&quot;"/>
+            <StringItem index="35" value="&quot;1935&quot;"/>
+            <StringItem index="36" value="&quot;1936&quot;"/>
+            <StringItem index="37" value="&quot;1937&quot;"/>
+            <StringItem index="38" value="&quot;1938&quot;"/>
+            <StringItem index="39" value="&quot;1939&quot;"/>
+            <StringItem index="40" value="&quot;1940&quot;"/>
+            <StringItem index="41" value="&quot;1941&quot;"/>
+            <StringItem index="42" value="&quot;1942&quot;"/>
+            <StringItem index="43" value="&quot;1943&quot;"/>
+            <StringItem index="44" value="&quot;1944&quot;"/>
+            <StringItem index="45" value="&quot;1945&quot;"/>
+            <StringItem index="46" value="&quot;1946&quot;"/>
+            <StringItem index="47" value="&quot;1947&quot;"/>
+            <StringItem index="48" value="&quot;1948&quot;"/>
+            <StringItem index="49" value="&quot;1949&quot;"/>
+            <StringItem index="50" value="&quot;1950&quot;"/>
+            <StringItem index="51" value="&quot;1951&quot;"/>
+            <StringItem index="52" value="&quot;1952&quot;"/>
+            <StringItem index="53" value="&quot;1953&quot;"/>
+            <StringItem index="54" value="&quot;1954&quot;"/>
+            <StringItem index="55" value="&quot;1955&quot;"/>
+            <StringItem index="56" value="&quot;1956&quot;"/>
+            <StringItem index="57" value="&quot;1957&quot;"/>
+            <StringItem index="58" value="&quot;1958&quot;"/>
+            <StringItem index="59" value="&quot;1959&quot;"/>
+            <StringItem index="60" value="&quot;1960&quot;"/>
+            <StringItem index="61" value="&quot;1961&quot;"/>
+            <StringItem index="62" value="&quot;1962&quot;"/>
+            <StringItem index="63" value="&quot;1963&quot;"/>
+            <StringItem index="64" value="&quot;1964&quot;"/>
+            <StringItem index="65" value="&quot;1965&quot;"/>
+            <StringItem index="66" value="&quot;1966&quot;"/>
+            <StringItem index="67" value="&quot;1967&quot;"/>
+            <StringItem index="68" value="&quot;1968&quot;"/>
+            <StringItem index="69" value="&quot;1969&quot;"/>
+            <StringItem index="70" value="&quot;1970&quot;"/>
+            <StringItem index="71" value="&quot;1971&quot;"/>
+            <StringItem index="72" value="&quot;1972&quot;"/>
+            <StringItem index="73" value="&quot;1973&quot;"/>
+            <StringItem index="74" value="&quot;1974&quot;"/>
+            <StringItem index="75" value="&quot;1975&quot;"/>
+            <StringItem index="76" value="&quot;1976&quot;"/>
+            <StringItem index="77" value="&quot;1977&quot;"/>
+            <StringItem index="78" value="&quot;1978&quot;"/>
+            <StringItem index="79" value="&quot;1979&quot;"/>
+            <StringItem index="80" value="&quot;1980&quot;"/>
+            <StringItem index="81" value="&quot;1981&quot;"/>
+            <StringItem index="82" value="&quot;1982&quot;"/>
+            <StringItem index="83" value="&quot;1983&quot;"/>
+            <StringItem index="84" value="&quot;1984&quot;"/>
+            <StringItem index="85" value="&quot;1985&quot;"/>
+            <StringItem index="86" value="&quot;1986&quot;"/>
+            <StringItem index="87" value="&quot;1987&quot;"/>
+            <StringItem index="88" value="&quot;1988&quot;"/>
+            <StringItem index="89" value="&quot;1989&quot;"/>
+            <StringItem index="90" value="&quot;1990&quot;"/>
+            <StringItem index="91" value="&quot;1991&quot;"/>
+            <StringItem index="92" value="&quot;1992&quot;"/>
+            <StringItem index="93" value="&quot;1993&quot;"/>
+            <StringItem index="94" value="&quot;1994&quot;"/>
+            <StringItem index="95" value="&quot;1995&quot;"/>
+            <StringItem index="96" value="&quot;1996&quot;"/>
+            <StringItem index="97" value="&quot;1997&quot;"/>
+            <StringItem index="98" value="&quot;1998&quot;"/>
+            <StringItem index="99" value="&quot;1999&quot;"/>
+            <StringItem index="100" value="&quot;2000&quot;"/>
+            <StringItem index="101" value="&quot;2001&quot;"/>
+            <StringItem index="102" value="&quot;2002&quot;"/>
+            <StringItem index="103" value="&quot;2003&quot;"/>
+            <StringItem index="104" value="&quot;2004&quot;"/>
+            <StringItem index="105" value="&quot;2005&quot;"/>
+            <StringItem index="106" value="&quot;2006&quot;"/>
+            <StringItem index="107" value="&quot;2007&quot;"/>
+            <StringItem index="108" value="&quot;2008&quot;"/>
+            <StringItem index="109" value="&quot;2009&quot;"/>
+            <StringItem index="110" value="&quot;2010&quot;"/>
+            <StringItem index="111" value="&quot;2011&quot;"/>
+            <StringItem index="112" value="&quot;2012&quot;"/>
+            <StringItem index="113" value="&quot;2013&quot;"/>
+            <StringItem index="114" value="&quot;2014&quot;"/>
+            <StringItem index="115" value="&quot;2015&quot;"/>
+            <StringItem index="116" value="&quot;2016&quot;"/>
+            <StringItem index="117" value="&quot;2017&quot;"/>
+            <StringItem index="118" value="&quot;2018&quot;"/>
+            <StringItem index="119" value="&quot;2019&quot;"/>
+            <StringItem index="120" value="&quot;2020&quot;"/>
+            <StringItem index="121" value="&quot;2021&quot;"/>
+            <StringItem index="122" value="&quot;2022&quot;"/>
+            <StringItem index="123" value="&quot;2023&quot;"/>
+            <StringItem index="124" value="&quot;2024&quot;"/>
+            <StringItem index="125" value="&quot;2025&quot;"/>
+            <StringItem index="126" value="&quot;2026&quot;"/>
+            <StringItem index="127" value="&quot;2027&quot;"/>
+            <StringItem index="128" value="&quot;2028&quot;"/>
+            <StringItem index="129" value="&quot;2029&quot;"/>
+            <StringItem index="130" value="&quot;2030&quot;"/>
+            <StringItem index="131" value="&quot;2031&quot;"/>
+            <StringItem index="132" value="&quot;2032&quot;"/>
+            <StringItem index="133" value="&quot;2033&quot;"/>
+            <StringItem index="134" value="&quot;2034&quot;"/>
+            <StringItem index="135" value="&quot;2035&quot;"/>
+            <StringItem index="136" value="&quot;2036&quot;"/>
+            <StringItem index="137" value="&quot;2037&quot;"/>
+            <StringItem index="138" value="&quot;2038&quot;"/>
+            <StringItem index="139" value="&quot;2039&quot;"/>
+            <StringItem index="140" value="&quot;2040&quot;"/>
+            <StringItem index="141" value="&quot;2041&quot;"/>
+            <StringItem index="142" value="&quot;2042&quot;"/>
+            <StringItem index="143" value="&quot;2043&quot;"/>
+            <StringItem index="144" value="&quot;2044&quot;"/>
+            <StringItem index="145" value="&quot;2045&quot;"/>
+            <StringItem index="146" value="&quot;2046&quot;"/>
+            <StringItem index="147" value="&quot;2047&quot;"/>
+            <StringItem index="148" value="&quot;2048&quot;"/>
+            <StringItem index="149" value="&quot;2049&quot;"/>
+            <StringItem index="150" value="&quot;2050&quot;})"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yearActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="gender">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Male"/>
+            <StringItem index="1" value="Female"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="address">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addressActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="day1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="month1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="year1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="151">
+            <StringItem index="0" value="&quot;1900&quot;"/>
+            <StringItem index="1" value="&quot;1901&quot;"/>
+            <StringItem index="2" value="&quot;1902&quot;"/>
+            <StringItem index="3" value="&quot;1903&quot;"/>
+            <StringItem index="4" value="&quot;1904&quot;"/>
+            <StringItem index="5" value="&quot;1905&quot;"/>
+            <StringItem index="6" value="&quot;1906&quot;"/>
+            <StringItem index="7" value="&quot;1907&quot;"/>
+            <StringItem index="8" value="&quot;1908&quot;"/>
+            <StringItem index="9" value="&quot;1909&quot;"/>
+            <StringItem index="10" value="&quot;1910&quot;"/>
+            <StringItem index="11" value="&quot;1911&quot;"/>
+            <StringItem index="12" value="&quot;1912&quot;"/>
+            <StringItem index="13" value="&quot;1913&quot;"/>
+            <StringItem index="14" value="&quot;1914&quot;"/>
+            <StringItem index="15" value="&quot;1915&quot;"/>
+            <StringItem index="16" value="&quot;1916&quot;"/>
+            <StringItem index="17" value="&quot;1917&quot;"/>
+            <StringItem index="18" value="&quot;1918&quot;"/>
+            <StringItem index="19" value="&quot;1919&quot;"/>
+            <StringItem index="20" value="&quot;1920&quot;"/>
+            <StringItem index="21" value="&quot;1921&quot;"/>
+            <StringItem index="22" value="&quot;1922&quot;"/>
+            <StringItem index="23" value="&quot;1923&quot;"/>
+            <StringItem index="24" value="&quot;1924&quot;"/>
+            <StringItem index="25" value="&quot;1925&quot;"/>
+            <StringItem index="26" value="&quot;1926&quot;"/>
+            <StringItem index="27" value="&quot;1927&quot;"/>
+            <StringItem index="28" value="&quot;1928&quot;"/>
+            <StringItem index="29" value="&quot;1929&quot;"/>
+            <StringItem index="30" value="&quot;1930&quot;"/>
+            <StringItem index="31" value="&quot;1931&quot;"/>
+            <StringItem index="32" value="&quot;1932&quot;"/>
+            <StringItem index="33" value="&quot;1933&quot;"/>
+            <StringItem index="34" value="&quot;1934&quot;"/>
+            <StringItem index="35" value="&quot;1935&quot;"/>
+            <StringItem index="36" value="&quot;1936&quot;"/>
+            <StringItem index="37" value="&quot;1937&quot;"/>
+            <StringItem index="38" value="&quot;1938&quot;"/>
+            <StringItem index="39" value="&quot;1939&quot;"/>
+            <StringItem index="40" value="&quot;1940&quot;"/>
+            <StringItem index="41" value="&quot;1941&quot;"/>
+            <StringItem index="42" value="&quot;1942&quot;"/>
+            <StringItem index="43" value="&quot;1943&quot;"/>
+            <StringItem index="44" value="&quot;1944&quot;"/>
+            <StringItem index="45" value="&quot;1945&quot;"/>
+            <StringItem index="46" value="&quot;1946&quot;"/>
+            <StringItem index="47" value="&quot;1947&quot;"/>
+            <StringItem index="48" value="&quot;1948&quot;"/>
+            <StringItem index="49" value="&quot;1949&quot;"/>
+            <StringItem index="50" value="&quot;1950&quot;"/>
+            <StringItem index="51" value="&quot;1951&quot;"/>
+            <StringItem index="52" value="&quot;1952&quot;"/>
+            <StringItem index="53" value="&quot;1953&quot;"/>
+            <StringItem index="54" value="&quot;1954&quot;"/>
+            <StringItem index="55" value="&quot;1955&quot;"/>
+            <StringItem index="56" value="&quot;1956&quot;"/>
+            <StringItem index="57" value="&quot;1957&quot;"/>
+            <StringItem index="58" value="&quot;1958&quot;"/>
+            <StringItem index="59" value="&quot;1959&quot;"/>
+            <StringItem index="60" value="&quot;1960&quot;"/>
+            <StringItem index="61" value="&quot;1961&quot;"/>
+            <StringItem index="62" value="&quot;1962&quot;"/>
+            <StringItem index="63" value="&quot;1963&quot;"/>
+            <StringItem index="64" value="&quot;1964&quot;"/>
+            <StringItem index="65" value="&quot;1965&quot;"/>
+            <StringItem index="66" value="&quot;1966&quot;"/>
+            <StringItem index="67" value="&quot;1967&quot;"/>
+            <StringItem index="68" value="&quot;1968&quot;"/>
+            <StringItem index="69" value="&quot;1969&quot;"/>
+            <StringItem index="70" value="&quot;1970&quot;"/>
+            <StringItem index="71" value="&quot;1971&quot;"/>
+            <StringItem index="72" value="&quot;1972&quot;"/>
+            <StringItem index="73" value="&quot;1973&quot;"/>
+            <StringItem index="74" value="&quot;1974&quot;"/>
+            <StringItem index="75" value="&quot;1975&quot;"/>
+            <StringItem index="76" value="&quot;1976&quot;"/>
+            <StringItem index="77" value="&quot;1977&quot;"/>
+            <StringItem index="78" value="&quot;1978&quot;"/>
+            <StringItem index="79" value="&quot;1979&quot;"/>
+            <StringItem index="80" value="&quot;1980&quot;"/>
+            <StringItem index="81" value="&quot;1981&quot;"/>
+            <StringItem index="82" value="&quot;1982&quot;"/>
+            <StringItem index="83" value="&quot;1983&quot;"/>
+            <StringItem index="84" value="&quot;1984&quot;"/>
+            <StringItem index="85" value="&quot;1985&quot;"/>
+            <StringItem index="86" value="&quot;1986&quot;"/>
+            <StringItem index="87" value="&quot;1987&quot;"/>
+            <StringItem index="88" value="&quot;1988&quot;"/>
+            <StringItem index="89" value="&quot;1989&quot;"/>
+            <StringItem index="90" value="&quot;1990&quot;"/>
+            <StringItem index="91" value="&quot;1991&quot;"/>
+            <StringItem index="92" value="&quot;1992&quot;"/>
+            <StringItem index="93" value="&quot;1993&quot;"/>
+            <StringItem index="94" value="&quot;1994&quot;"/>
+            <StringItem index="95" value="&quot;1995&quot;"/>
+            <StringItem index="96" value="&quot;1996&quot;"/>
+            <StringItem index="97" value="&quot;1997&quot;"/>
+            <StringItem index="98" value="&quot;1998&quot;"/>
+            <StringItem index="99" value="&quot;1999&quot;"/>
+            <StringItem index="100" value="&quot;2000&quot;"/>
+            <StringItem index="101" value="&quot;2001&quot;"/>
+            <StringItem index="102" value="&quot;2002&quot;"/>
+            <StringItem index="103" value="&quot;2003&quot;"/>
+            <StringItem index="104" value="&quot;2004&quot;"/>
+            <StringItem index="105" value="&quot;2005&quot;"/>
+            <StringItem index="106" value="&quot;2006&quot;"/>
+            <StringItem index="107" value="&quot;2007&quot;"/>
+            <StringItem index="108" value="&quot;2008&quot;"/>
+            <StringItem index="109" value="&quot;2009&quot;"/>
+            <StringItem index="110" value="&quot;2010&quot;"/>
+            <StringItem index="111" value="&quot;2011&quot;"/>
+            <StringItem index="112" value="&quot;2012&quot;"/>
+            <StringItem index="113" value="&quot;2013&quot;"/>
+            <StringItem index="114" value="&quot;2014&quot;"/>
+            <StringItem index="115" value="&quot;2015&quot;"/>
+            <StringItem index="116" value="&quot;2016&quot;"/>
+            <StringItem index="117" value="&quot;2017&quot;"/>
+            <StringItem index="118" value="&quot;2018&quot;"/>
+            <StringItem index="119" value="&quot;2019&quot;"/>
+            <StringItem index="120" value="&quot;2020&quot;"/>
+            <StringItem index="121" value="&quot;2021&quot;"/>
+            <StringItem index="122" value="&quot;2022&quot;"/>
+            <StringItem index="123" value="&quot;2023&quot;"/>
+            <StringItem index="124" value="&quot;2024&quot;"/>
+            <StringItem index="125" value="&quot;2025&quot;"/>
+            <StringItem index="126" value="&quot;2026&quot;"/>
+            <StringItem index="127" value="&quot;2027&quot;"/>
+            <StringItem index="128" value="&quot;2028&quot;"/>
+            <StringItem index="129" value="&quot;2029&quot;"/>
+            <StringItem index="130" value="&quot;2030&quot;"/>
+            <StringItem index="131" value="&quot;2031&quot;"/>
+            <StringItem index="132" value="&quot;2032&quot;"/>
+            <StringItem index="133" value="&quot;2033&quot;"/>
+            <StringItem index="134" value="&quot;2034&quot;"/>
+            <StringItem index="135" value="&quot;2035&quot;"/>
+            <StringItem index="136" value="&quot;2036&quot;"/>
+            <StringItem index="137" value="&quot;2037&quot;"/>
+            <StringItem index="138" value="&quot;2038&quot;"/>
+            <StringItem index="139" value="&quot;2039&quot;"/>
+            <StringItem index="140" value="&quot;2040&quot;"/>
+            <StringItem index="141" value="&quot;2041&quot;"/>
+            <StringItem index="142" value="&quot;2042&quot;"/>
+            <StringItem index="143" value="&quot;2043&quot;"/>
+            <StringItem index="144" value="&quot;2044&quot;"/>
+            <StringItem index="145" value="&quot;2045&quot;"/>
+            <StringItem index="146" value="&quot;2046&quot;"/>
+            <StringItem index="147" value="&quot;2047&quot;"/>
+            <StringItem index="148" value="&quot;2048&quot;"/>
+            <StringItem index="149" value="&quot;2049&quot;"/>
+            <StringItem index="150" value="&quot;2050&quot;})"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="year1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="day2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="month2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="year2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="151">
+            <StringItem index="0" value="&quot;1900&quot;"/>
+            <StringItem index="1" value="&quot;1901&quot;"/>
+            <StringItem index="2" value="&quot;1902&quot;"/>
+            <StringItem index="3" value="&quot;1903&quot;"/>
+            <StringItem index="4" value="&quot;1904&quot;"/>
+            <StringItem index="5" value="&quot;1905&quot;"/>
+            <StringItem index="6" value="&quot;1906&quot;"/>
+            <StringItem index="7" value="&quot;1907&quot;"/>
+            <StringItem index="8" value="&quot;1908&quot;"/>
+            <StringItem index="9" value="&quot;1909&quot;"/>
+            <StringItem index="10" value="&quot;1910&quot;"/>
+            <StringItem index="11" value="&quot;1911&quot;"/>
+            <StringItem index="12" value="&quot;1912&quot;"/>
+            <StringItem index="13" value="&quot;1913&quot;"/>
+            <StringItem index="14" value="&quot;1914&quot;"/>
+            <StringItem index="15" value="&quot;1915&quot;"/>
+            <StringItem index="16" value="&quot;1916&quot;"/>
+            <StringItem index="17" value="&quot;1917&quot;"/>
+            <StringItem index="18" value="&quot;1918&quot;"/>
+            <StringItem index="19" value="&quot;1919&quot;"/>
+            <StringItem index="20" value="&quot;1920&quot;"/>
+            <StringItem index="21" value="&quot;1921&quot;"/>
+            <StringItem index="22" value="&quot;1922&quot;"/>
+            <StringItem index="23" value="&quot;1923&quot;"/>
+            <StringItem index="24" value="&quot;1924&quot;"/>
+            <StringItem index="25" value="&quot;1925&quot;"/>
+            <StringItem index="26" value="&quot;1926&quot;"/>
+            <StringItem index="27" value="&quot;1927&quot;"/>
+            <StringItem index="28" value="&quot;1928&quot;"/>
+            <StringItem index="29" value="&quot;1929&quot;"/>
+            <StringItem index="30" value="&quot;1930&quot;"/>
+            <StringItem index="31" value="&quot;1931&quot;"/>
+            <StringItem index="32" value="&quot;1932&quot;"/>
+            <StringItem index="33" value="&quot;1933&quot;"/>
+            <StringItem index="34" value="&quot;1934&quot;"/>
+            <StringItem index="35" value="&quot;1935&quot;"/>
+            <StringItem index="36" value="&quot;1936&quot;"/>
+            <StringItem index="37" value="&quot;1937&quot;"/>
+            <StringItem index="38" value="&quot;1938&quot;"/>
+            <StringItem index="39" value="&quot;1939&quot;"/>
+            <StringItem index="40" value="&quot;1940&quot;"/>
+            <StringItem index="41" value="&quot;1941&quot;"/>
+            <StringItem index="42" value="&quot;1942&quot;"/>
+            <StringItem index="43" value="&quot;1943&quot;"/>
+            <StringItem index="44" value="&quot;1944&quot;"/>
+            <StringItem index="45" value="&quot;1945&quot;"/>
+            <StringItem index="46" value="&quot;1946&quot;"/>
+            <StringItem index="47" value="&quot;1947&quot;"/>
+            <StringItem index="48" value="&quot;1948&quot;"/>
+            <StringItem index="49" value="&quot;1949&quot;"/>
+            <StringItem index="50" value="&quot;1950&quot;"/>
+            <StringItem index="51" value="&quot;1951&quot;"/>
+            <StringItem index="52" value="&quot;1952&quot;"/>
+            <StringItem index="53" value="&quot;1953&quot;"/>
+            <StringItem index="54" value="&quot;1954&quot;"/>
+            <StringItem index="55" value="&quot;1955&quot;"/>
+            <StringItem index="56" value="&quot;1956&quot;"/>
+            <StringItem index="57" value="&quot;1957&quot;"/>
+            <StringItem index="58" value="&quot;1958&quot;"/>
+            <StringItem index="59" value="&quot;1959&quot;"/>
+            <StringItem index="60" value="&quot;1960&quot;"/>
+            <StringItem index="61" value="&quot;1961&quot;"/>
+            <StringItem index="62" value="&quot;1962&quot;"/>
+            <StringItem index="63" value="&quot;1963&quot;"/>
+            <StringItem index="64" value="&quot;1964&quot;"/>
+            <StringItem index="65" value="&quot;1965&quot;"/>
+            <StringItem index="66" value="&quot;1966&quot;"/>
+            <StringItem index="67" value="&quot;1967&quot;"/>
+            <StringItem index="68" value="&quot;1968&quot;"/>
+            <StringItem index="69" value="&quot;1969&quot;"/>
+            <StringItem index="70" value="&quot;1970&quot;"/>
+            <StringItem index="71" value="&quot;1971&quot;"/>
+            <StringItem index="72" value="&quot;1972&quot;"/>
+            <StringItem index="73" value="&quot;1973&quot;"/>
+            <StringItem index="74" value="&quot;1974&quot;"/>
+            <StringItem index="75" value="&quot;1975&quot;"/>
+            <StringItem index="76" value="&quot;1976&quot;"/>
+            <StringItem index="77" value="&quot;1977&quot;"/>
+            <StringItem index="78" value="&quot;1978&quot;"/>
+            <StringItem index="79" value="&quot;1979&quot;"/>
+            <StringItem index="80" value="&quot;1980&quot;"/>
+            <StringItem index="81" value="&quot;1981&quot;"/>
+            <StringItem index="82" value="&quot;1982&quot;"/>
+            <StringItem index="83" value="&quot;1983&quot;"/>
+            <StringItem index="84" value="&quot;1984&quot;"/>
+            <StringItem index="85" value="&quot;1985&quot;"/>
+            <StringItem index="86" value="&quot;1986&quot;"/>
+            <StringItem index="87" value="&quot;1987&quot;"/>
+            <StringItem index="88" value="&quot;1988&quot;"/>
+            <StringItem index="89" value="&quot;1989&quot;"/>
+            <StringItem index="90" value="&quot;1990&quot;"/>
+            <StringItem index="91" value="&quot;1991&quot;"/>
+            <StringItem index="92" value="&quot;1992&quot;"/>
+            <StringItem index="93" value="&quot;1993&quot;"/>
+            <StringItem index="94" value="&quot;1994&quot;"/>
+            <StringItem index="95" value="&quot;1995&quot;"/>
+            <StringItem index="96" value="&quot;1996&quot;"/>
+            <StringItem index="97" value="&quot;1997&quot;"/>
+            <StringItem index="98" value="&quot;1998&quot;"/>
+            <StringItem index="99" value="&quot;1999&quot;"/>
+            <StringItem index="100" value="&quot;2000&quot;"/>
+            <StringItem index="101" value="&quot;2001&quot;"/>
+            <StringItem index="102" value="&quot;2002&quot;"/>
+            <StringItem index="103" value="&quot;2003&quot;"/>
+            <StringItem index="104" value="&quot;2004&quot;"/>
+            <StringItem index="105" value="&quot;2005&quot;"/>
+            <StringItem index="106" value="&quot;2006&quot;"/>
+            <StringItem index="107" value="&quot;2007&quot;"/>
+            <StringItem index="108" value="&quot;2008&quot;"/>
+            <StringItem index="109" value="&quot;2009&quot;"/>
+            <StringItem index="110" value="&quot;2010&quot;"/>
+            <StringItem index="111" value="&quot;2011&quot;"/>
+            <StringItem index="112" value="&quot;2012&quot;"/>
+            <StringItem index="113" value="&quot;2013&quot;"/>
+            <StringItem index="114" value="&quot;2014&quot;"/>
+            <StringItem index="115" value="&quot;2015&quot;"/>
+            <StringItem index="116" value="&quot;2016&quot;"/>
+            <StringItem index="117" value="&quot;2017&quot;"/>
+            <StringItem index="118" value="&quot;2018&quot;"/>
+            <StringItem index="119" value="&quot;2019&quot;"/>
+            <StringItem index="120" value="&quot;2020&quot;"/>
+            <StringItem index="121" value="&quot;2021&quot;"/>
+            <StringItem index="122" value="&quot;2022&quot;"/>
+            <StringItem index="123" value="&quot;2023&quot;"/>
+            <StringItem index="124" value="&quot;2024&quot;"/>
+            <StringItem index="125" value="&quot;2025&quot;"/>
+            <StringItem index="126" value="&quot;2026&quot;"/>
+            <StringItem index="127" value="&quot;2027&quot;"/>
+            <StringItem index="128" value="&quot;2028&quot;"/>
+            <StringItem index="129" value="&quot;2029&quot;"/>
+            <StringItem index="130" value="&quot;2030&quot;"/>
+            <StringItem index="131" value="&quot;2031&quot;"/>
+            <StringItem index="132" value="&quot;2032&quot;"/>
+            <StringItem index="133" value="&quot;2033&quot;"/>
+            <StringItem index="134" value="&quot;2034&quot;"/>
+            <StringItem index="135" value="&quot;2035&quot;"/>
+            <StringItem index="136" value="&quot;2036&quot;"/>
+            <StringItem index="137" value="&quot;2037&quot;"/>
+            <StringItem index="138" value="&quot;2038&quot;"/>
+            <StringItem index="139" value="&quot;2039&quot;"/>
+            <StringItem index="140" value="&quot;2040&quot;"/>
+            <StringItem index="141" value="&quot;2041&quot;"/>
+            <StringItem index="142" value="&quot;2042&quot;"/>
+            <StringItem index="143" value="&quot;2043&quot;"/>
+            <StringItem index="144" value="&quot;2044&quot;"/>
+            <StringItem index="145" value="&quot;2045&quot;"/>
+            <StringItem index="146" value="&quot;2046&quot;"/>
+            <StringItem index="147" value="&quot;2047&quot;"/>
+            <StringItem index="148" value="&quot;2048&quot;"/>
+            <StringItem index="149" value="&quot;2049&quot;"/>
+            <StringItem index="150" value="&quot;2050&quot;})"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="save">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" BloodGroup"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="bloodgroup">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="O+"/>
+            <StringItem index="1" value="O-"/>
+            <StringItem index="2" value="A+"/>
+            <StringItem index="3" value="A-"/>
+            <StringItem index="4" value="B+"/>
+            <StringItem index="5" value="B-"/>
+            <StringItem index="6" value="AB+"/>
+            <StringItem index="7" value="AB-"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
